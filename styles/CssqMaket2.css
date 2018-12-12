@@ -1,0 +1,103 @@
+#header, #footer, #menu {
+    background: #7b5aa7;
+    color: #53bfc6;
+    }
+        /* header */
+#header{
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 24px;
+    height:150px;
+}
+        /* header END*/
+        
+        /* menu */    
+#menu {
+    font-size: 14x;
+    font-weight: normal;
+    color: #53bfc6;
+    background: #7b5aa7;
+    text-align: center;
+    width: 100%;
+    /*margin: 0px 20%;*/
+    position: fixed;
+    z-index: 1000;
+    padding: 7px 0px;
+}
+
+#menu ul {
+    margin: 0px 30px;
+    }
+    
+#menu ul li {
+    display: inline;
+    padding: 0px 15px 15px 15px;
+    } 
+
+a {
+    color: #53bfc6;
+    }        
+        /* menu END */
+       
+        /* content */
+body {
+    font-family: cursive;
+    font-size: 16px;
+    color: #595959;
+    margin: 0;
+    background: url(../img/pat.png);  
+    text-align: center;    
+    }
+    
+img { 
+    margin: 6px; 
+    }
+
+h1 { 
+    font-size: 26px;
+    font-weight: normal;
+    color: #53bfc6;
+    background:  #7b5aa7;
+    text-align: center;
+    width: 900px;
+    margin: 20px auto;
+    }
+   
+.wrap {
+    max-width: 730px;
+    background: #ffe3e6;
+    border: 4px solid #7b5aa7;
+    margin: 20 auto 20 auto;
+    padding: 10px;
+    }
+    
+    /* types of pictures */
+.photo {
+    width: 240;
+    height: 240;
+    }
+    
+.aest {
+    width: 720;
+    height: 720;
+    }
+    
+#special .aest {
+    height: 1165;
+    width: 720;
+    } 
+    /* types of pictures END*/
+    
+.up {
+    position: fixed;
+    right: 0;
+    background: #7b5aa7;
+    padding: 5px;
+    }
+    /* content END*/
+    
+    /* footer */
+#footer{
+    padding: 30px 0px;
+    }
+    /* footer END*/
